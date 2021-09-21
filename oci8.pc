@@ -1,0 +1,8 @@
+prefix=/usr
+includedir=${prefix}/include/oracle/12.1/client64
+libdir=${prefix}/lib/oracle/12.1/client64/lib
+Name: oci8
+Description: oci8 library
+Cflags: -I${includedir}
+Libs: -L${libdir} -lclntsh
+Version: 12.1
